@@ -30,4 +30,5 @@ export const verifyAdmin = (req, res, next) => {
       return next(createError(403, "You are not authorized!"));
     }
   });
+  .
 };
